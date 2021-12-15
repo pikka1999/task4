@@ -1,0 +1,23 @@
+    <div class="col-md-8">
+      <h1>Books</h1>
+     <table class="table table-striped">
+        <thead>
+          <tr>
+            <th clspan="1"></th>
+            <th>Title</th>
+            <th>Opinion</th>
+          </tr>
+        </thead>
+        <tbody>
+
+      <tr>
+        <% @books.each do |book| %>
+        <td>ユーザー画像</td>
+        <td><%= book.title %></td>
+        <td><%= book.body %></td>
+        <% end %>
+      </tr>
+
+    </tbody>
+  </table>
+    </div>

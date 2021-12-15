@@ -1,0 +1,53 @@
+
+.edit-book{
+  font-size: 40px;
+}
+input{
+  padding: 6px 12px ;
+}
+.form-group:nth-of-type(1){
+  input{
+    height: 38px;
+  }
+}
+
+.introduction_form:nth-of-type(3){
+  input{
+    height: 62px;
+  }
+}
+
+.form-group:nth-of-type(4){
+  input{
+    width: 117px;
+  }
+}
+
+textarea{
+  padding: 6px 12px;
+}
+
+.update_button{
+  width: 117px;
+  input{
+    height: 38px;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+}
+
+.update_user{
+  input{
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+}
+
+.buttons{
+  display: flex;
+  span{
+    margin: 0 5px;
+  }
+}
